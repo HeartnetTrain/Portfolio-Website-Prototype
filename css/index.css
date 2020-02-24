@@ -13,6 +13,12 @@ body {
   overflow: hidden;
 }
 
+.dark {
+  background: #35424a;
+  color: white;
+  padding: 20px;
+}
+
 /* Header */
 
 header {
@@ -152,3 +158,28 @@ footer {
   background-color: #e8491d;
   text-align: center;
 }
+
+/* Media Queries*/
+
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  header nav li a,
+  #newsletter h3,
+  #newsletter form,
+  #skills .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #newsletter form input {
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+  }
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+} /* Tablets */
