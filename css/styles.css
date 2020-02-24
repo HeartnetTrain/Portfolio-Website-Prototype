@@ -1,0 +1,154 @@
+/* Global */
+
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  min-height: 80px;
+  border-bottom: #e8491d 3px solid;
+}
+#branding {
+  float: left;
+}
+#branding h1 {
+  letter-spacing: 0.2em;
+}
+
+#head {
+  color: #e8491d;
+  font-weight: bold;
+}
+.current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+header ul li a:hover {
+  color: tomato;
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline;
+  padding-left: 25px;
+}
+nav {
+  float: right;
+}
+header ul {
+  margin-top: 35px;
+}
+
+/* Showcase */
+
+#showcase {
+  background: url("/img/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  color: #ffffff;
+  text-align: center;
+}
+#showcase h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 12%;
+  margin-bottom: 7%;
+}
+#showcase p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* Newsletter */
+
+#newsletter {
+  padding: 10px;
+  background: #35424a;
+  color: #ffffff;
+}
+#newsletter h3 {
+  font-size: 1.4em;
+  float: left;
+  margin: 25px 10px;
+}
+form {
+  margin: 0;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+input {
+  width: 500px;
+  height: 25px;
+  padding: 0 10px;
+  border: #e8491d 2px solid;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.btn-submit {
+  background: #e8491d;
+  color: #ffffff;
+  border: none;
+  height: 28px;
+  padding: 0 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/* Skills */
+
+#skills {
+  margin-top: 80px;
+}
+
+#skills h1 {
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.box {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+/* footer */
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
