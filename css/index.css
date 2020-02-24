@@ -168,18 +168,27 @@ footer {
   header nav li a,
   #newsletter h3,
   #newsletter form,
-  #skills .box {
+  #skills .box,
+  #main article,
+  #main aside {
     float: none;
     text-align: center;
     width: 100%;
   }
+  header nav {
+    transform: translateX(-10%);
+  }
+
   #newsletter form input {
     margin-bottom: 10px;
-    width: 100%;
-    display: block;
+    width: 93%;
+    text-align: center;
   }
   #newsletter button {
     display: block;
+    width: 100%;
+  }
+  #sidebar button {
     width: 100%;
   }
 } /* Tablets */
